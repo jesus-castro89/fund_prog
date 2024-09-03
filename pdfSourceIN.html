@@ -1,0 +1,258 @@
+<html><head><meta charset="UTF-8"><style>
+        .article {
+            position: relative;
+            padding-bottom: 24px;
+        }
+        
+
+        .bordered-element-rounded {
+            border: 1px solid #c4c4c4;
+            border-radius: 7px;
+            overflow: hidden;
+        }
+        
+
+        .control {
+            color: #19191c;
+            font-size: 16px;
+            font-weight: 670;
+        }
+        
+
+        .detached {
+            margin-block-start: 0;
+            margin-block-end: 0;
+            margin-bottom: 8px;
+        }
+        
+
+        .flex {
+            display: flex;
+        }
+        
+
+        .list {
+            list-style-type: disc;
+            padding-left: 0;
+            margin-left: 15px;
+        }
+        
+
+        .list-decimal {
+            list-style-type: decimal;
+        }
+        
+
+        .list-item {
+            margin-top: 6px;
+            margin-bottom: 6px;
+            margin-left: 4px;
+        }
+        
+
+        .main-title {
+            padding-bottom: 24px;
+            margin-top: 0;
+            font-size: 40px;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+        
+
+        .prompt {
+            flex-direction: row;
+            letter-spacing: .0015em;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        
+
+        .prompt-content {
+            padding: 15px;
+            overflow: hidden;
+            flex: 1 1 auto;
+        }
+        
+
+        .prompt-content-p p {
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+        
+
+        .prompt-icon {
+            flex: 0 0 auto;
+            margin-left: 15px;
+            margin-top: 15px;
+            fill: currentcolor;
+            width: 24px;
+            height: 24px;
+        }
+        
+
+        :root {
+            width: 95%;
+            max-width: 95vw;
+            padding: 0 0 0 30px;
+        }
+        
+        body {
+            font-family: JetBrains Sans,serif;
+        }
+        
+        a {
+            overflow-wrap: anywhere;
+            width: 100vw;
+        }
+        
+        
+        @font-face {
+            font-family: JetBrains Sans;
+            src: url(https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans-Light.woff2) format("woff2"), url(https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans-Light.woff) format("woff");
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: JetBrains Sans;
+            src: url(https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans-Regular.woff2) format("woff2"), url(https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans-Regular.woff) format("woff");
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: JetBrains Sans;
+            src: url(https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans-SemiBold.woff2) format("woff2"), url(https://resources.jetbrains.com/storage/jetbrains-sans/JetBrainsSans-SemiBold.woff) format("woff");
+            font-weight: 600;
+            font-style: normal;
+        }
+        
+        
+        code {
+            display: inline;
+            word-break: break-word;
+            font-size: 15px;
+            line-height: inherit;
+            font-variant-ligatures: none;
+            font-family: JetBrains Sans,monospace;
+            white-space: pre-line;
+            overflow-wrap: break-word;
+        }
+        
+        figcaption {
+            margin-top: 5px;
+        }
+        
+        h2 {
+            padding-top: 16px;
+            padding-bottom: 8px;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+        
+        h3 {
+            padding-top: 8px;
+            padding-bottom: 8px;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+        
+        h4 {
+            padding-top: 4px;
+            padding-bottom: 8px;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+        
+        p {
+            padding: 0;
+            border: 0;
+            line-height: 25px;
+            margin-block-start: 0;
+            margin-block-end: 0;
+            padding-bottom: 8px;
+        }
+        
+        div {
+            display: block;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            page-break-inside: avoid;
+        }
+        
+        th, td {
+            border: 1px solid #c4c4c4;
+            padding: 10px;
+            text-align: left;
+            word-break: break-all;
+        }
+        
+        .entry {
+            display: grid;
+            grid-template-columns: auto max-content;
+            grid-template-areas: "chapter page";
+            align-items: end;
+            gap: 0 .25rem;
+            line-height: 25px;
+        }
+        
+        .toc-link-container{
+            grid-area: chapter;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .toc-link{
+            text-decoration: none;
+            color: black;
+        }
+        
+        .toc-link-container::after {
+            position: absolute;
+            padding-left: .25ch;
+            content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+            ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . "
+            ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+            text-align: right;
+        }
+        
+        .page {
+            grid-area: page;
+            width: 30px;
+            text-align: right;
+        }
+        
+
+        .tip {
+            background-color: rgba(25, 25, 28, .05);
+        }
+        
+
+        .topic {
+            page-break-before: always;
+        }
+        </style></head><body><div><section class="topic"><div><article class="article"><h1 class="main-title">Table of contents</h1><div class="entry"><div class="toc-link-container"><a class="toc-link" href="#-1897185137">Bienvenido a Fundamentos de Programaci&oacute;n</a></div><div class="page">2</div></div><div class="entry"><div class="toc-link-container"><a class="toc-link" href="#393726215">Algoritmos</a></div><div class="page">4</div></div></article></div></section><section class="topic"><div><article class="article"><h1 class="main-title" id="-1897185137">Bienvenido a Fundamentos de Programaci&oacute;n</h1><p id="-1897185137#gk5tzy_3">Este curso est&aacute; dise&ntilde;ado para estudiantes sin experiencia previa en programaci&oacute;n. Aprender&aacute;s los conceptos b&aacute;sicos de programaci&oacute;n y c&oacute;mo aplicarlos en la pr&aacute;ctica. Al final del curso, podr&aacute;s escribir programas simples y resolver problemas de programaci&oacute;n.</p><section><h2 id="-1897185137#objetivos-del-curso" data-toc="objetivos-del-curso#starter.md-objetivos-del-curso">Objetivos del curso</h2><ul class="list" id="-1897185137#gk5tzy_9" start="1"><li class="list-item" id="-1897185137#gk5tzy_10"><p>Aprender los conceptos b&aacute;sicos de programaci&oacute;n.</p></li><li class="list-item" id="-1897185137#gk5tzy_11"><p>Aplicar los conceptos aprendidos en la pr&aacute;ctica.</p></li><li class="list-item" id="-1897185137#gk5tzy_12"><p>Escribir programas simples.</p></li><li class="list-item" id="-1897185137#gk5tzy_13"><p>Resolver problemas de programaci&oacute;n.</p></li><li class="list-item" id="-1897185137#gk5tzy_14"><p>Prepararte para cursos m&aacute;s avanzados de programaci&oacute;n.</p></li><li class="list-item" id="-1897185137#gk5tzy_15"><p>Desarrollar habilidades de resoluci&oacute;n de problemas.</p></li><li class="list-item" id="-1897185137#gk5tzy_16"><p>Aprender a trabajar en equipo.</p></li><li class="list-item" id="-1897185137#gk5tzy_17"><p>Aprender a comunicarte con otros programadores.</p></li><li class="list-item" id="-1897185137#gk5tzy_18"><p>Aprender a buscar informaci&oacute;n y recursos en l&iacute;nea.</p></li><li class="list-item" id="-1897185137#gk5tzy_19"><p>Aprender a utilizar herramientas de programaci&oacute;n.</p></li></ul></section><section><h2 id="-1897185137#requisitos-previos" data-toc="requisitos-previos#starter.md-requisitos-previos">Requisitos previos</h2><p id="-1897185137#gk5tzy_20">No necesitas experiencia previa en programaci&oacute;n para tomar este curso. Sin embargo, es &uacute;til tener conocimientos b&aacute;sicos de matem&aacute;ticas y l&oacute;gica.</p></section><section><h2 id="-1897185137#estructura-del-curso" data-toc="estructura-del-curso#starter.md-estructura-del-curso">Estructura del curso</h2><p id="-1897185137#gk5tzy_21">El curso consta de varias lecciones, cada una con una serie de temas. Cada tema incluye una explicaci&oacute;n te&oacute;rica y ejemplos pr&aacute;cticos. Al final de cada lecci&oacute;n, hay ejercicios para practicar lo aprendido.</p></section><section><h2 id="-1897185137#evaluaci-n" data-toc="evaluaci-n#starter.md-evaluaci-n">Evaluaci&oacute;n</h2><p id="-1897185137#gk5tzy_22">La evaluaci&oacute;n se basa en los ejercicios realizados durante el curso. Al final del curso, tendr&aacute;s que completar un proyecto final para demostrar tus habilidades de programaci&oacute;n.</p></section><section><h2 id="-1897185137#recursos" data-toc="recursos#starter.md-recursos">Recursos</h2><section><h3 id="-1897185137#ide-entorno-de-desarrollo-integrado" data-toc="ide-entorno-de-desarrollo-integrado#starter.md-ide-entorno-de-desarrollo-integrado">IDE (Entorno de Desarrollo Integrado)</h3><ul class="list" id="-1897185137#gk5tzy_25" start="1"><li class="list-item" id="-1897185137#gk5tzy_27"><p>CLion (<a href="https://www.jetbrains.com/clion/">https://www.jetbrains.com/clion/</a>)</p></li><li class="list-item" id="-1897185137#gk5tzy_28"><p>Visual Studio Code (<a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>)</p></li><li class="list-item" id="-1897185137#gk5tzy_29"><p>Dev-C++ (<a href="https://filehippo.com/es/download_dev-c/">https://filehippo.com/es/download_dev-c/</a>)</p></li></ul><blockquote class="prompt flex bordered-element-rounded tip detached">
+  <svg xmlns="http://www.w3.org/2000/svg" class="prompt-icon">
+    <path d="M12.946 3.552L21.52 18.4c.424.735.33 1.6-.519 1.6H3.855c-.85 0-1.817-.865-1.392-1.6l8.573-14.848a1.103 1.103 0 0 1 1.91 0zm.545 12.948a1.5 1.5 0 1 0-1.5 1.5 1.5 1.5 0 0 0 1.5-1.5zM13 8h-2v5h2z"></path>
+  </svg>
+  <div class="prompt-content prompt-content-p"><p id="-1897185137#gk5tzy_33"><span class="control" id="-1897185137#gk5tzy_34">Nota:</span> Puedes utilizar cualquier IDE que te resulte c&oacute;modo. Sin embargo, se recomienda utilizar <span class="control" id="-1897185137#gk5tzy_35">CLion</span> para este curso.</p></div>
+</blockquote>
+</section><section><h3 id="-1897185137#herramientas-de-dise-o" data-toc="herramientas-de-dise-o#starter.md-herramientas-de-dise-o">Herramientas de Dise&ntilde;o</h3><ul class="list" id="-1897185137#gk5tzy_36" start="1"><li class="list-item" id="-1897185137#gk5tzy_39"><p>Draw.io (<a href="https://app.diagrams.net/">https://app.diagrams.net/</a>)</p></li></ul><blockquote class="prompt flex bordered-element-rounded tip detached">
+  <svg xmlns="http://www.w3.org/2000/svg" class="prompt-icon">
+    <path d="M12.946 3.552L21.52 18.4c.424.735.33 1.6-.519 1.6H3.855c-.85 0-1.817-.865-1.392-1.6l8.573-14.848a1.103 1.103 0 0 1 1.91 0zm.545 12.948a1.5 1.5 0 1 0-1.5 1.5 1.5 1.5 0 0 0 1.5-1.5zM13 8h-2v5h2z"></path>
+  </svg>
+  <div class="prompt-content prompt-content-p"><p id="-1897185137#gk5tzy_41"><span class="control" id="-1897185137#gk5tzy_42">Nota:</span> Puedes utilizar cualquier herramienta de dise&ntilde;o que te resulte c&oacute;moda. Sin embargo, se recomienda utilizar <span class="control" id="-1897185137#gk5tzy_43">Draw.io</span> para este curso.</p></div>
+</blockquote>
+<blockquote class="prompt flex bordered-element-rounded tip detached">
+  <svg xmlns="http://www.w3.org/2000/svg" class="prompt-icon">
+    <path d="M12.946 3.552L21.52 18.4c.424.735.33 1.6-.519 1.6H3.855c-.85 0-1.817-.865-1.392-1.6l8.573-14.848a1.103 1.103 0 0 1 1.91 0zm.545 12.948a1.5 1.5 0 1 0-1.5 1.5 1.5 1.5 0 0 0 1.5-1.5zM13 8h-2v5h2z"></path>
+  </svg>
+  <div class="prompt-content prompt-content-p"><p id="-1897185137#gk5tzy_44"><span class="control" id="-1897185137#gk5tzy_45">Nota:</span> Queda prohibido el uso de herramientas como <span class="control" id="-1897185137#gk5tzy_46">PSeInt</span>, ya que no permiten la escritura de c&oacute;digo real. As&iacute; como tambi&eacute;n queda prohibido el uso de herramientas de dise&ntilde;o como <span class="control" id="-1897185137#gk5tzy_47">PowerPoint</span> o <span class="control" id="-1897185137#gk5tzy_48">Word</span>, porque no son adecuadas para la creaci&oacute;n de diagramas de flujo.</p></div>
+</blockquote>
+</section></section></article></div></section><section class="topic"><div><article class="article"><h1 class="main-title" id="393726215" data-label-id="algorithm">Algoritmos</h1><section><h2 id="393726215#introducci-n" data-toc="introducci-n#Algoritmos.md-introducci-n">Introducci&oacute;n</h2><p id="393726215#-wvlpt6_10">En este tema, aprender&aacute;s qu&eacute; es un algoritmo, por qu&eacute; es importante y c&oacute;mo dise&ntilde;ar algoritmos eficientes. Tambi&eacute;n aprender&aacute;s a implementar algoritmos en pseudoc&oacute;digo y diagramas de flujo. Finalmente, resolver&aacute;s problemas de programaci&oacute;n utilizando algoritmos y desarrollar&aacute;s habilidades de resoluci&oacute;n de problemas.</p></section><section><h2 id="393726215#objetivos" data-toc="objetivos#Algoritmos.md-objetivos">Objetivos</h2><ul class="list" id="393726215#-wvlpt6_11" start="1"><li class="list-item" id="393726215#-wvlpt6_12"><p>Comprender qu&eacute; es un algoritmo y por qu&eacute; es importante.</p></li><li class="list-item" id="393726215#-wvlpt6_13"><p>Aprender a dise&ntilde;ar algoritmos eficientes.</p></li><li class="list-item" id="393726215#-wvlpt6_14"><p>Aprender a implementar algoritmos en pseudoc&oacute;digo y diagramas de flujo.</p></li><li class="list-item" id="393726215#-wvlpt6_15"><p>Resolver problemas de programaci&oacute;n utilizando algoritmos.</p></li><li class="list-item" id="393726215#-wvlpt6_16"><p>Desarrollar habilidades de resoluci&oacute;n de problemas.</p></li></ul></section><section><h2 id="393726215#contenido" data-toc="contenido#Algoritmos.md-contenido">Contenido</h2><ol class="list list-decimal" id="393726215#-wvlpt6_17" type="1" start="1"><li class="list-item" id="393726215#-wvlpt6_18"><p>&iquest;Qu&eacute; es un algoritmo?</p></li><li class="list-item" id="393726215#-wvlpt6_19"><p>Caracter&iacute;sticas de un algoritmo.</p></li></ol></section><section><h2 id="393726215#qu-es-un-algoritmo" data-toc="qu-es-un-algoritmo#Algoritmos.md-qu-es-un-algoritmo">&iquest;Qu&eacute; es un algoritmo?</h2><p id="393726215#-wvlpt6_20">Un algoritmo es un conjunto de instrucciones que describe c&oacute;mo resolver un problema. Los algoritmos son la base de la programaci&oacute;n y se utilizan para dise&ntilde;ar programas inform&aacute;ticos. Un buen algoritmo es eficiente, preciso y f&aacute;cil de entender.</p></section><section><h2 id="393726215#caracter-sticas-de-un-algoritmo" data-toc="caracter-sticas-de-un-algoritmo#Algoritmos.md-caracter-sticas-de-un-algoritmo">Caracter&iacute;sticas de un algoritmo</h2><p id="393726215#-wvlpt6_21">Un algoritmo debe tener las siguientes caracter&iacute;sticas:</p><ol class="list list-decimal" id="393726215#-wvlpt6_22" type="1" start="1"><li class="list-item" id="393726215#-wvlpt6_24"><p><span class="control" id="393726215#-wvlpt6_31">Precisi&oacute;n (Definici&oacute;n exacta de cada paso)</span>: </p><ul class="list" id="393726215#-wvlpt6_32" start="1"><li class="list-item" id="393726215#-wvlpt6_33"><p>Cada paso del algoritmo debe estar claramente definido, sin ambig&uuml;edades. Esto significa que las instrucciones deben ser entendibles y ejecutables por cualquiera que siga el algoritmo, ya sea una persona o una m&aacute;quina.</p></li></ul></li><li class="list-item" id="393726215#-wvlpt6_25"><p><span class="control" id="393726215#-wvlpt6_34">Finito (Debe tener un final):</span></p><ul class="list" id="393726215#-wvlpt6_35" start="1"><li class="list-item" id="393726215#-wvlpt6_36"><p>Un algoritmo debe tener un n&uacute;mero finito de pasos. No puede ser infinito; debe llegar a una conclusi&oacute;n en alg&uacute;n momento, resolviendo el problema planteado.</p></li></ul></li><li class="list-item" id="393726215#-wvlpt6_26"><p><span class="control" id="393726215#-wvlpt6_37">Entrada (Datos de entrada):</span></p><ul class="list" id="393726215#-wvlpt6_38" start="1"><li class="list-item" id="393726215#-wvlpt6_39"><p>Un algoritmo puede requerir cero o m&aacute;s entradas para funcionar. Estas entradas son los datos iniciales necesarios para que el algoritmo comience su proceso.</p></li></ul></li><li class="list-item" id="393726215#-wvlpt6_27"><p><span class="control" id="393726215#-wvlpt6_40">Salida (Resultados generados):</span></p><ul class="list" id="393726215#-wvlpt6_41" start="1"><li class="list-item" id="393726215#-wvlpt6_42"><p>Como resultado del proceso, el algoritmo debe producir una o m&aacute;s salidas. Estas son las soluciones o los resultados obtenidos tras la ejecuci&oacute;n de los pasos del algoritmo.</p></li></ul></li><li class="list-item" id="393726215#-wvlpt6_28"><p><span class="control" id="393726215#-wvlpt6_43">Efectividad (Operaciones b&aacute;sicas ejecutables):</span></p><ul class="list" id="393726215#-wvlpt6_44" start="1"><li class="list-item" id="393726215#-wvlpt6_45"><p>Los pasos de un algoritmo deben ser simples y realizables en un tiempo razonable. Cada operaci&oacute;n debe ser lo suficientemente b&aacute;sica como para ser realizada sin necesidad de un an&aacute;lisis adicional complejo.</p></li></ul></li><li class="list-item" id="393726215#-wvlpt6_29"><p><span class="control" id="393726215#-wvlpt6_46">Claridad (Debe ser comprensible):</span></p><ul class="list" id="393726215#-wvlpt6_47" start="1"><li class="list-item" id="393726215#-wvlpt6_48"><p>Un algoritmo debe ser claro y comprensible. Esto significa que cualquier persona con el conocimiento adecuado debe poder leer y entender el algoritmo sin necesidad de interpretaciones adicionales.</p></li></ul></li><li class="list-item" id="393726215#-wvlpt6_30"><p><span class="control" id="393726215#-wvlpt6_49">Independencia (Independencia del lenguaje de programaci&oacute;n):</span></p><ul class="list" id="393726215#-wvlpt6_50" start="1"><li class="list-item" id="393726215#-wvlpt6_51"><p>Un algoritmo no depende de un lenguaje de programaci&oacute;n espec&iacute;fico. Se puede escribir en lenguaje natural, diagramas de flujo, pseudoc&oacute;digo, etc., y luego implementarse en cualquier lenguaje de programaci&oacute;n.</p></li></ul></li></ol><section><h3 id="393726215#ejemplo" data-toc="ejemplo#Algoritmos.md-ejemplo">Ejemplo</h3><p id="393726215#-wvlpt6_52">Imagina que est&aacute;s creando un algoritmo para preparar un s&aacute;ndwich. Los pasos ser&iacute;an algo as&iacute;:</p><ol class="list list-decimal" id="393726215#-wvlpt6_53" type="1" start="1"><li class="list-item" id="393726215#-wvlpt6_56"><p><span class="control" id="393726215#-wvlpt6_59">Entrada:</span></p><ul class="list" id="393726215#-wvlpt6_60" start="1"><li class="list-item" id="393726215#-wvlpt6_61"><p>Pan, jam&oacute;n, queso, lechuga, tomate, etc.</p></li></ul></li><li class="list-item" id="393726215#-wvlpt6_57"><p><span class="control" id="393726215#-wvlpt6_62">Proceso:</span></p><ul class="list" id="393726215#-wvlpt6_63" start="1"><li class="list-item" id="393726215#-wvlpt6_64"><p>Colocar una rebanada de pan en la mesa.</p></li><li class="list-item" id="393726215#-wvlpt6_65"><p>Colocar una rebanada de jam&oacute;n sobre el pan.</p></li><li class="list-item" id="393726215#-wvlpt6_66"><p>Agregar una rebanada de queso.</p></li><li class="list-item" id="393726215#-wvlpt6_67"><p>Colocar lechuga y tomate.</p></li><li class="list-item" id="393726215#-wvlpt6_68"><p>Cubrir con la otra rebanada de pan.</p></li></ul></li><li class="list-item" id="393726215#-wvlpt6_58"><p><span class="control" id="393726215#-wvlpt6_69">Salida:</span></p><ul class="list" id="393726215#-wvlpt6_70" start="1"><li class="list-item" id="393726215#-wvlpt6_71"><p>Un s&aacute;ndwich listo para comer.</p></li></ul></li></ol><p id="393726215#-wvlpt6_54">Este ejemplo cumple con todas las caracter&iacute;sticas mencionadas: es preciso, finito, tiene entradas y salidas, es efectivo, claro, y puede ser interpretado sin importar el idioma en el que se describa.</p><p id="393726215#-wvlpt6_55">Estas caracter&iacute;sticas aseguran que un algoritmo sea confiable y utilizable para resolver problemas de manera sistem&aacute;tica y eficiente.</p></section></section><section><h2 id="393726215#conclusi-n" data-toc="conclusi-n#Algoritmos.md-conclusi-n">Conclusi&oacute;n</h2><p id="393726215#-wvlpt6_72">Los algoritmos son la base de la programaci&oacute;n y la resoluci&oacute;n de problemas. Al comprender qu&eacute; es un algoritmo y c&oacute;mo dise&ntilde;arlo de manera eficiente, podr&aacute;s mejorar tus habilidades de programaci&oacute;n y resolver problemas de manera m&aacute;s eficiente. &iexcl;Sigue practicando y desarrollando tus habilidades algor&iacute;tmicas!</p></section></article></div></section></div></body></html>
