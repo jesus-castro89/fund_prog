@@ -54,9 +54,7 @@ A continuación, se muestra la representación gráfica de los elementos de un d
     "Proceso B":{shape:rectangle}
     "Decisión":{shape:diamond}
     "Conector":""{shape:circle; width:25; height:25}
-    "Para": |md
-                i=1; i<10; i++
-            |{shape:hexagon}
+    "Para": "inico; condicion; incremento"{shape:hexagon}
     "Entrada":{shape:parallelogram}
     "Salida":{shape:document}
     "Conector de página":A{shape:circle}
