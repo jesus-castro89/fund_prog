@@ -25,6 +25,7 @@
         <toc-element topic="que-es-diagrama.md"/>
         <toc-element topic="importancia-diagramas.md"/>
         <toc-element topic="elementos-diagrama.md"/>
-        <toc-element topic="flow-example.md"/>
+        <toc-element topic="flow.md"/>
     </toc-element>
+    <toc-element topic="para.md"/>
 </instance-profile>
