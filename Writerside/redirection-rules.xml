@@ -2,4 +2,9 @@
 <!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
 <rules>
 
+    <rule id="3444dab5">
+        <description>Created after removal of "Ejemplo de Diagrama de Flujo" from Fundamentos de Programación
+        </description>
+        <accepts>flow-example.html</accepts>
+    </rule>
 </rules>
