@@ -13,18 +13,25 @@
     </toc-element>
     <toc-element topic="Algoritmos.md">
         <toc-element topic="que-es-algoritmo.md"/>
-    </toc-element>
-    <toc-element topic="Pseudocodigo.md">
-        <toc-element topic="que-es-pseudocodigo.md"/>
-        <toc-element topic="caracteristicas-pseudocodigo.md"/>
-        <toc-element topic="ventajas-desventajas-pseudocodigo.md"/>
-        <toc-element topic="componentes-pseudocodigo.md"/>
-        <toc-element topic="reglas-pseudocodigo.md"/>
-    </toc-element>
-    <toc-element topic="diagramas-flujo.md">
-        <toc-element topic="que-es-diagrama.md"/>
-        <toc-element topic="importancia-diagramas.md"/>
-        <toc-element topic="elementos-diagrama.md"/>
-        <toc-element topic="subprocesos.md"/>
+        <toc-element topic="clasificacion.md"/>
+        <toc-element topic="Pseudocodigo.md">
+            <toc-element topic="que-es-pseudocodigo.md"/>
+            <toc-element topic="caracteristicas-pseudocodigo.md"/>
+            <toc-element topic="ventajas-desventajas-pseudocodigo.md"/>
+            <toc-element topic="componentes-pseudocodigo.md"/>
+            <toc-element topic="reglas-pseudocodigo.md"/>
+        </toc-element>
+        <toc-element topic="diagramas-flujo.md">
+            <toc-element topic="que-es-diagrama.md"/>
+            <toc-element topic="importancia-diagramas.md"/>
+            <toc-element topic="elementos-diagrama.md"/>
+            <toc-element topic="subprocesos.md"/>
+        </toc-element>
+        <toc-element topic="estructura.md">
+            <toc-element topic="algoritmo-ejemplo.md"/>
+            <toc-element topic="lineal.md"/>
+            <toc-element topic="repetitivas.md"/>
+            <toc-element topic="switch.md"/>
+        </toc-element>
     </toc-element>
 </instance-profile>
