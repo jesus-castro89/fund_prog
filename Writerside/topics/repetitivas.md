@@ -10,7 +10,7 @@ Las estructuras repetitivas más comunes son el bucle `for`, el bucle `while` y 
 utiliza cuando se conoce el número de iteraciones que se deben realizar, mientras que el bucle `while` se utiliza cuando
 se desconoce el número de iteraciones.
 
-### Mientras que (while)
+## Mientras que (while)
 
 La estructura repetitiva `while` es una estructura de control que permite ejecutar un bloque de código mientras se
 cumpla una condición. La estructura `while` en pseudocódigo es la siguiente:
@@ -29,7 +29,7 @@ verdadera. Si la condición es falsa, el bloque de código no se ejecuta.
 
 Es importante tener en cuenta que si la condición es siempre verdadera, el bucle `while` se ejecutará indefinidamente,
 
-### Hacer hasta que (do while)
+## Hacer hasta que (do while)
 
 La estructura repetitiva `do while` es una estructura de control que permite ejecutar un bloque de código al menos una
 vez y luego repetirlo mientras no se cumpla una condición. La estructura `do while` en pseudocódigo es la siguiente:
@@ -50,7 +50,7 @@ se repite mientras la condición sea falsa. Si la condición es verdadera, se co
 Al igual que con el bucle `while`, si la condición es siempre falsa, el bucle `do while` se ejecutará
 indefinidamente.
 
-### Para (for)
+## Para (for)
 
 La estructura repetitiva `for` es una estructura de control que permite ejecutar un bloque de código un número fijo de
 veces. La estructura `for` en pseudocódigo es la siguiente:
