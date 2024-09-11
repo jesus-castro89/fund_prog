@@ -38,6 +38,8 @@
     <toc-element topic="cpp.md">
         <toc-element topic="input-output.md"/>
         <toc-element topic="pseudo-c.md"/>
+        <toc-element topic="tipos-datos.md"/>
+        <toc-element topic="constantes.md"/>
         <toc-element topic="cpp-if.md"/>
     </toc-element>
 </instance-profile>
