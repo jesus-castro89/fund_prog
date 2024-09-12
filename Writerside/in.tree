@@ -3,8 +3,8 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="in"
-                 name="Fundamentos de Programación"
-                 start-page="starter.md">
+                  name="Introducción a la Programación"
+                  start-page="starter.md">
 
     <toc-element topic="starter.md">
         <toc-element topic="Solicitar-Licencia-para-Estudiantes.md"/>
