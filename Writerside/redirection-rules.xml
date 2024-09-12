@@ -21,4 +21,8 @@
         </description>
         <accepts>identificadores.html</accepts>
     </rule>
+    <rule id="2f3c8461">
+        <description>Created after removal of "salidas" from Introducción a la Programación</description>
+        <accepts>salidas.html</accepts>
+    </rule>
 </rules>
