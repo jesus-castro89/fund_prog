@@ -8,7 +8,7 @@ clave `const`.
 
 Para declarar una constante en C++, se utiliza la siguiente sintaxis:
 
-```cpp
+```c++
 const tipo nombre = valor;
 ```
 
@@ -21,7 +21,7 @@ Donde:
 
 Por ejemplo, para declarar una constante de tipo entero con el valor `10`, se puede hacer lo siguiente:
 
-```cpp
+```c++
 const int numero = 10;
 ```
 

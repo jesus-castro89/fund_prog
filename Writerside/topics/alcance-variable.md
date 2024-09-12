@@ -54,4 +54,3 @@ En resumen, el alcance de una variable en C++ está determinado por su posición
 delimitan bloques de código. Las variables globales tienen un alcance de archivo y pueden ser utilizadas en cualquier
 parte del archivo en el que han sido declaradas, mientras que las variables locales tienen un alcance de bloque y solo
 pueden ser utilizadas dentro del bloque de código en el que han sido declaradas.
-```
