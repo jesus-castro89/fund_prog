@@ -7,4 +7,18 @@
         </description>
         <accepts>flow-example.html</accepts>
     </rule>
+    <rule id="5f1fead">
+        <description>Created after removal of "Variables Estáticas en C++" from Fundamentos de Programación
+        </description>
+        <accepts>static.html</accepts>
+    </rule>
+    <rule id="41deee06">
+        <description>Created after removal of "Decisión en C++" from Fundamentos de Programación</description>
+        <accepts>cpp-if.html</accepts>
+    </rule>
+    <rule id="2b302a8">
+        <description>Created after removal of "Los Identificadores en C++" from Fundamentos de Programación
+        </description>
+        <accepts>identificadores.html</accepts>
+    </rule>
 </rules>

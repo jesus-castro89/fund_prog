@@ -32,7 +32,7 @@ En este caso, `numero` es una constante de tipo entero con el valor `10`.
 Otra forma de definir constantes en C++ es utilizando directivas del preprocesador, como `#define`. Por ejemplo, para
 definir una constante de tipo entero con el valor `20`, se puede hacer lo siguiente:
 
-```cpp
+```c++
 #define NUMERO 20
 ```
 
