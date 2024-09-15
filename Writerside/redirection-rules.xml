@@ -25,4 +25,8 @@
         <description>Created after removal of "salidas" from Introducción a la Programación</description>
         <accepts>salidas.html</accepts>
     </rule>
+    <rule id="1621e1bf">
+        <description>Created after removal of "flow" from Introducción a la Programación</description>
+        <accepts>flow.html</accepts>
+    </rule>
 </rules>
