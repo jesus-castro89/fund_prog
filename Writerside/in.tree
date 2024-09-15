@@ -47,4 +47,9 @@
         <toc-element topic="alcance-variable.md"/>
     </toc-element>
     <toc-element topic="constantes.md"/>
+    <toc-element topic="proyecto.md">
+        <toc-element topic="repo.md"/>
+        <toc-element topic="pseudo-proy.md"/>
+        <toc-element topic="diagram.md"/>
+    </toc-element>
 </instance-profile>
