@@ -1,4 +1,4 @@
-# Las librerías <random> y <string> de C++
+# Las librerías `<random>` y `<string>` de C++
 
 En C++, las librerías `<random>` y `<string>` son muy útiles para trabajar con números aleatorios y cadenas de texto,
 respectivamente. En este apartado, veremos cómo utilizar estas librerías en tus programas de C++.
