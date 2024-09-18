@@ -40,6 +40,16 @@ deberá de crear un repositorio en GitHub y seguir los pasos mencionados anterio
 
 ## 1.2.- Clonando en CLion
 
+Antes de comenzar, es necesario tener instalado Git en la máquina local. Para instalar Git, se puede seguir la guía de
+instalación oficial de Git
+en [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
+O bien puedes usar el instalador de Git para Windows, macOS o Linux que se encuentra en
+[https://git-scm.com/downloads](https://git-scm.com/downloads).
+
+Una vez instalado Git, se puede clonar el repositorio en CLion para comenzar a trabajar en el proyecto. CLion es un
+entorno de desarrollo integrado (IDE) para C++ que permite trabajar con repositorios Git de forma sencilla.
+
 Para clonar el repositorio en CLion, se deben seguir los siguientes pasos:
 
 1. Abrir CLion.
