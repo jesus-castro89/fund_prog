@@ -29,4 +29,8 @@
         <description>Created after removal of "flow" from Introducción a la Programación</description>
         <accepts>flow.html</accepts>
     </rule>
+    <rule id="b50f107">
+        <description>Created after removal of "El ciclo Para" from Introducción a la Programación</description>
+        <accepts>para.html</accepts>
+    </rule>
 </rules>
