@@ -55,6 +55,7 @@
     <toc-element topic="string-random.md"/>
     <toc-element topic="flowcontrol.md">
         <toc-element topic="if-sentence.md"/>
+        <toc-element topic="ternary.md"/>
     </toc-element>
     <toc-element topic="proyecto.md">
         <toc-element topic="repo.md"/>
