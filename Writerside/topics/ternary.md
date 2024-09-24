@@ -15,6 +15,12 @@ Por ejemplo, el siguiente código:
 ```c++
 int x = 5;
 int y = (x > 0) ? 1 : -1;
+// Cuando en modo if seria:
+// int y;
+// if (x > 0) 
+//     y = 1;
+// else
+//     y = -1;    
 ```
 
 Asigna el valor 1 a `y` si `x` es mayor que 0, y -1 en caso contrario.
