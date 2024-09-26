@@ -29,6 +29,25 @@ El operador ternario es muy útil para asignar valores a variables en función d
 de él, ya que puede hacer que el código sea menos legible. En general, se recomienda usarlo solo para expresiones
 simples.
 
+## Reglas de uso
+
+El operador ternario se puede utilizar en cualquier lugar donde se pueda utilizar una expresión, como en la
+inicialización de variables, en la asignación de valores, en las condiciones de los bucles y en las expresiones de
+retorno de funciones.
+
+```c++
+int x = 5;
+int y = (x > 0) ? 1 : -1;
+
+for (int i = 0; i < 10; i++)
+{
+    int z = (i % 2 == 0) ? 0 : 1;
+}
+```
+
+En general, se recomienda usar el operador ternario solo para expresiones simples y no anidadas, ya que puede hacer que
+el código sea menos legible.
+
 ## Ejercicios
 
 1. Escriba un programa que lea un número entero e imprima si es par o impar.
