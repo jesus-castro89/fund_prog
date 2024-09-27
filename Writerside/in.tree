@@ -58,6 +58,8 @@
         <toc-element topic="ternary.md"/>
         <toc-element topic="operation-evaluation.md"/>
         <toc-element topic="while.md"/>
+        <toc-element topic="for.md"/>
+        <toc-element topic="switch-case.md"/>
     </toc-element>
     <toc-element topic="proyecto.md">
         <toc-element topic="repo.md"/>
