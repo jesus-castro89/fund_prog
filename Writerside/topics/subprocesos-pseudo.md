@@ -1,4 +1,4 @@
-# Los subprocesos
+# Subprocesos (Pseudocódigo)
 
 Dentro de los algoritmos usando pseudocódigo y diagramas de flujo, los subprocesos son una parte importante para dividir
 la lógica del programa en partes más pequeñas y manejables. Un subproceso es una secuencia de instrucciones que se
