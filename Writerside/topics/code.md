@@ -16,7 +16,7 @@ Un programa en C++ siempre tiene una función llamada `main`. La función `main`
 es la que se ejecuta cuando el programa es lanzado. El cuerpo de la función `main` es el punto de entrada del programa
 y contiene el código que se ejecuta cuando el programa es lanzado.
 
-```cpp
+```c++
 #include <iostream>
 
 int main() {
@@ -92,4 +92,3 @@ En esta sección, hemos visto cómo podemos estructurar un programa en C++ y có
 directorios. También hemos visto cómo configurar CLion para compilar un proyecto en C++ y cómo compilarlo. En la
 siguiente sección, veremos cómo podemos escribir programas más complejos y cómo podemos utilizar bibliotecas externas
 en nuestros programas.
-```
