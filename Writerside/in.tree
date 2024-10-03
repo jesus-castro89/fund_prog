@@ -33,6 +33,7 @@
         <toc-element topic="lineal.md"/>
         <toc-element topic="repetitivas.md"/>
         <toc-element topic="switch.md"/>
+        <toc-element topic="subprocesos-pseudo.md"/>
     </toc-element>
     <toc-element topic="lenguajes-programacion.md">
         <toc-element topic="cpp.md">
