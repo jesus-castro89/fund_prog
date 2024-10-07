@@ -63,11 +63,15 @@
         <toc-element topic="for.md"/>
         <toc-element topic="switch-case.md"/>
     </toc-element>
+    <toc-element topic="function.md"/>
+    <toc-element topic="pointer.md"/>
+    <toc-element topic="comments.md"/>
     <toc-element topic="proyecto.md">
         <toc-element topic="repo.md"/>
         <toc-element topic="pseudo-proy.md"/>
         <toc-element topic="diagram.md"/>
         <toc-element topic="code.md"/>
         <toc-element topic="random-card.md"/>
+        <toc-element topic="card-deck.md"/>
     </toc-element>
 </instance-profile>

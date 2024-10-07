@@ -92,17 +92,6 @@ int main() {
 En este código, se generan dos cartas aleatorias para el jugador y dos cartas aleatorias para la computadora. Luego, se
 muestran en pantalla los valores de las cartas de ambos jugadores.
 
-## 5.4. Entregable del Proyecto
-
-Para la entrega del proyecto, deberás de hacer que tanto el mensaje del jugador como de la computadora se muestre en
-pantalla usando un total de cuatro variables. Además, deberás de hacer que el programa calcule la suma de las cartas
-del jugador y de la computadora y muestre en pantalla el ganador del juego. Si la suma de las cartas del jugador es
-mayor a la de la computadora, el jugador gana; si la suma de las cartas de la computadora es mayor a la del jugador, la
-computadora gana; y si ambas sumas son iguales, el juego termina en empate.
-
-Para la entrega del proyecto, deberás de subir el código fuente del programa a tu repositorio de GitHub y enviar el
-enlace al profesor.
-
 ## 5.5. Conclusiones
 
 En este apartado, aprendimos cómo generar cartas aleatorias en un juego de cartas utilizando la función `rand()` de la
