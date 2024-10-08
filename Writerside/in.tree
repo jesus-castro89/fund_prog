@@ -66,6 +66,7 @@
     <toc-element topic="function.md"/>
     <toc-element topic="pointer.md"/>
     <toc-element topic="comments.md"/>
+    <toc-element topic="enums.md"/>
     <toc-element topic="proyecto.md">
         <toc-element topic="repo.md"/>
         <toc-element topic="pseudo-proy.md"/>
