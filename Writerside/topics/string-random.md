@@ -1,11 +1,11 @@
-# Las librerías `<random>` y `<string>` de C++
+# Las librerías `random` y `string` de C++
 
-En C++, las librerías `<random>` y `<string>` son muy útiles para trabajar con números aleatorios y cadenas de texto,
+En C++, las librerías `random` y `string` son muy útiles para trabajar con números aleatorios y cadenas de texto,
 respectivamente. En este apartado, veremos cómo utilizar estas librerías en tus programas de C++.
 
-## Librería `<random>`
+## Librería `random`
 
-La librería `<random>` proporciona funciones y clases para generar números aleatorios en C++. Algunas de las clases más
+La librería `random` proporciona funciones y clases para generar números aleatorios en C++. Algunas de las clases más
 comunes de esta librería son:
 
 - `std::random_device`: Clase que proporciona un generador de números aleatorios basado en hardware.
@@ -23,7 +23,7 @@ A continuación, se muestra un ejemplo de cómo generar números aleatorios util
 
 ```c++
 #include <iostream>
-#include <random>
+#include random
 
 int main() {
     std::random_device rd;
@@ -44,9 +44,9 @@ semilla proporcionada por `std::random_device`. Luego, se crea una distribución
 `[1, 6]` con la clase `std::uniform_int_distribution`. Finalmente, se generan 10 números aleatorios en ese rango y se
 imprimen en la consola.
 
-## Librería `<string>`
+## Librería `string`
 
-La librería `<string>` proporciona funciones y clases para trabajar con cadenas de texto en C++. Algunas de las clases
+La librería `string` proporciona funciones y clases para trabajar con cadenas de texto en C++. Algunas de las clases
 más comunes de esta librería son:
 
 - `std::string`: Clase que representa una cadena de texto en C++.
@@ -69,7 +69,7 @@ A continuación, se muestra un ejemplo de cómo trabajar con cadenas de texto en
 
 ```c++
 #include <iostream>
-#include <string>
+#include string
 
 int main() {
     std::string nombre = "Juan";
@@ -86,17 +86,17 @@ int main() {
 En este ejemplo, se crean dos cadenas de texto `nombre` y `apellido`, se concatenan para formar `nombre_completo` y
 se imprime en la consola. Además, se muestra la longitud de la cadena `nombre`.
 
-Estas son solo algunas de las funcionalidades que ofrecen las librerías `<random>` y `<string>` de C++. Puedes
+Estas son solo algunas de las funcionalidades que ofrecen las librerías `random` y `string` de C++. Puedes
 explorar más sobre estas librerías en la documentación oficial de C++ para sacar el máximo provecho de ellas en tus
 programas.
 
 ### Leer cadenas de texto con espacios
 
-Para leer una cadena de texto con espacios en C++, puedes utilizar la función `std::getline` de la librería `<string>`.
+Para leer una cadena de texto con espacios en C++, puedes utilizar la función `std::getline` de la librería `string`.
 
 ```c++
 #include <iostream>
-#include <string>
+#include string
 
 int main() {
     std::string nombre;
@@ -112,7 +112,7 @@ int main() {
 
 ## Referencias
 
-- [Documentación de C++ para `<random>`](https://en.cppreference.com/w/cpp/header/random)
-- [Documentación de C++ para `<string>`](https://en.cppreference.com/w/cpp/header/string)
+- [Documentación de C++ para `random`](https://en.cppreference.com/w/cpp/header/random)
+- [Documentación de C++ para `string`](https://en.cppreference.com/w/cpp/header/string)
 - [C++ Random Number Generation](https://www.learncpp.com/cpp-tutorial/15-1-introduction-to-random-number-generation/)
 - [C++ Strings](https://www.learncpp.com/cpp-tutorial/66-c-strings-an-introduction/)
