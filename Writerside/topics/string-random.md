@@ -90,6 +90,26 @@ Estas son solo algunas de las funcionalidades que ofrecen las librerías `<rando
 explorar más sobre estas librerías en la documentación oficial de C++ para sacar el máximo provecho de ellas en tus
 programas.
 
+### Leer cadenas de texto con espacios
+
+Para leer una cadena de texto con espacios en C++, puedes utilizar la función `std::getline` de la librería `<string>`.
+
+```c++
+#include <iostream>
+#include <string>
+
+int main() {
+    std::string nombre;
+
+    std::cout << "Ingrese su nombre completo: ";
+    std::getline(std::cin, nombre);
+
+    std::cout << "Su nombre es: " << nombre << std::endl;
+
+    return 0;
+}
+```
+
 ## Referencias
 
 - [Documentación de C++ para `<random>`](https://en.cppreference.com/w/cpp/header/random)
