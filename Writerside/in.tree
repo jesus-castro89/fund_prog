@@ -76,7 +76,10 @@
         <toc-element topic="control-structures.md"/>
         <toc-element topic="comments-javadoc.md"/>
         <toc-element topic="java-enums.md"/>
+        <toc-element topic="arrays.md"/>
         <toc-element topic="constructors.md"/>
+        <toc-element topic="math.md"/>
+        <toc-element topic="format-string.md"/>
     </toc-element>
     <toc-element topic="proyecto.md">
         <toc-element topic="repo.md"/>
