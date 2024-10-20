@@ -1,0 +1,42 @@
+@startchen
+
+entity "Cliente" as c {
+    id_cliente <<key>>
+    nombre_cliente
+    direccion_cliente
+}
+entity "Producto" as p {
+    codigo_producto <<key>>
+    nombre_producto
+    precio_producto
+    modelo_producto
+}
+entity "Pedido" as pd {
+    numero_pedido <<key>>
+    fecha_pedido
+}
+entity "Almacén" as a {
+    id_almacen <<key>>
+    direccion_almacen
+}
+entity "Fabricante" as f {
+    id_fabricante <<key>>
+    nombre_fabricante
+}
+relationship fabricar{
+    fabricar -1- f
+    p -N- fabricar
+}
+relationship almacenar{
+    a -M- almacenar
+    p -N- almacenar
+}
+relationship realizar{
+    c -1- realizar
+    pd -N- realizar
+}
+relationship contener{
+    pd -1- contener
+    p -N- contener
+}
+@endchen
