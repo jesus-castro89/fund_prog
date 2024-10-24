@@ -30,3 +30,6 @@ Para utilizar el CamelCase de forma correcta, es importante seguir algunas conve
 - Evitar abreviaturas y acrónimos.
 - Se aplicará lowerCamelCase para las variables y funciones, y UpperCamelCase para las clases.
 - Mantener la consistencia en el uso del CamelCase.
+- Las clases y atributos son sustantivos en singular, a excepción de los arreglos que se nombran en plural, por ejemplo:
+  `Persona`, `nombre`, `personas`.
+- Las funciones son verbos o frases verbales, por ejemplo: `calcularEdad`, `mostrarMensaje`.
