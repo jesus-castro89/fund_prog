@@ -71,6 +71,7 @@
         <toc-element topic="pseudo-c.md"/>
     </toc-element>
     <toc-element topic="Java.md">
+        <toc-element topic="camel-case.md"/>
         <toc-element topic="java-types.md"/>
         <toc-element topic="java-structure.md"/>
         <toc-element topic="control-structures.md"/>
