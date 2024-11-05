@@ -98,6 +98,7 @@
     <toc-element topic="joptionpane-menu.md"/>
     <toc-element topic="menu-exception.md"/>
     <toc-element topic="exception.md"/>
+    <toc-element topic="menu-example.md"/>
     <toc-element topic="proyecto.md">
         <toc-element topic="repo.md"/>
         <toc-element topic="pseudo-proy.md"/>
