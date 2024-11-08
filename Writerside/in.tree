@@ -74,6 +74,9 @@
     </toc-element>
     <toc-element topic="class-function-atribute.md"/>
     <toc-element topic="restricted-words.md"/>
+    <toc-element topic="java-types.md"/>
+    <toc-element topic="camel-case.md"/>
+    <toc-element topic="java-structure.md"/>
     <toc-element topic="joptionpane.md"/>
     <toc-element topic="paremeter-reference.md"/>
     <toc-element topic="function-call.md"/>
@@ -92,13 +95,13 @@
         <toc-element topic="ternary-extense.md"/>
         <toc-element topic="for-extense.md"/>
     </toc-element>
-    <toc-element topic="java-structure.md"/>
-    <toc-element topic="java-types.md"/>
-    <toc-element topic="camel-case.md"/>
+    <toc-element topic="equivalent.md"/>
+    <toc-element topic="complex-conditions.md"/>
     <toc-element topic="joptionpane-menu.md"/>
     <toc-element topic="menu-exception.md"/>
     <toc-element topic="exception.md"/>
     <toc-element topic="menu-example.md"/>
+    <toc-element topic="students-admin.md"/>
     <toc-element topic="proyecto.md">
         <toc-element topic="repo.md"/>
         <toc-element topic="pseudo-proy.md"/>
