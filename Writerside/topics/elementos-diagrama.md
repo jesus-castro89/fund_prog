@@ -49,3 +49,4 @@ Estos elementos son fundamentales para la creación y comprensión de un diagram
 forma clara y concisa la lógica y el flujo de ejecución de un algoritmo o proceso. Al utilizar símbolos gráficos y
 conectarlos mediante flechas, se crea una representación visual que facilita la visualización y el análisis de un
 algoritmo, lo que permite diseñar, analizar y documentar procesos de una manera efectiva y eficiente.
+
