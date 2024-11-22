@@ -104,6 +104,9 @@
     <toc-element topic="students-admin.md"/>
     <toc-element topic="arrays.md"/>
     <toc-element topic="package.md"/>
+    <toc-element topic="modular.md"/>
+    <toc-element topic="metodos-funciones.md"/>
+    <toc-element topic="pametro-argumento.md"/>
     <toc-element topic="proyecto.md">
         <toc-element topic="repo.md"/>
         <toc-element topic="pseudo-proy.md"/>
